@@ -1,0 +1,35 @@
+.ExerciseButton{
+    display: flex;
+    width: 5%;
+    height: 100vh;
+    position: fixed;
+    color: white;
+    z-index: 999;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.play-button{
+    /* padding: 8rem; */
+    width: 280px;
+    height: 280px;
+    border-radius: 170px;
+    border: none;
+    font-size: 45px;
+    background-color: #2f45c5;
+    color: white;
+}
+.inner-circle{
+    display: inline-block;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 12px;
+    border-color: #FD7279;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top:10;
+    left:10;
+    pointer-events:none;
+  }

@@ -1,0 +1,38 @@
+.squeeze-card{
+    position: relative;
+    margin-top: 1%;
+    left: 68.75%;
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEBFC;
+    border-radius: .7rem;
+    width: 30%;
+    padding: 1% 1% 1% 1%;
+    align-items: start;
+    text-align: start;
+    justify-content: center;
+}
+.inner-card{
+    width: 100%;
+}
+.form-wrapper{
+    width: inherit;
+    justify-content: space-between;
+}
+.selector{
+    width: inherit;
+}
+.squeeze-card > .inner-card label{
+    font-size: small;
+    font-weight: bolder;
+    padding-left: 2%;
+}
+.selector-label{
+    color: black; 
+    display: flex;
+    justify-content: flex-end;
+    font-size: x-small;
+}
+.reverse-kegel-exercise{
+    justify-content: space-between;
+}

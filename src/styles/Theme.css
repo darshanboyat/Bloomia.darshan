@@ -1,0 +1,17 @@
+#myVideoLight, #myVideoDark{
+    position: fixed;
+    width: 110%;
+    height: 100vh;
+    background-color: white;
+    padding: 0%;
+    transform: scale(1.22);
+}
+.themeContainer{
+    position: fixed;
+        overflow: hidden;
+        background-color: rgb(234, 13, 13);
+        width: 74%;
+        height: 100vh;
+        border-radius: 0rem 2rem 2rem 0rem;
+        transform: translateX(-10%);
+}

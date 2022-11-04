@@ -1,0 +1,35 @@
+.guideContainer{
+    position: absolute;
+    display: none;
+    padding: 1%;
+    top: 12%;
+    left: 3%;
+    width: 62%;
+    background-color: white;
+    border-radius: 1rem;
+    z-index: 999;
+    max-height: 75vh;
+    overflow: scroll;
+}
+
+.guide{
+    position: fixed;
+    display: flex;
+    color: black;
+    background-color: white;
+    width: 60%;
+    justify-content: space-between;
+    padding: .5% 1%;
+    margin-top: -1%;
+}
+.bi-x-circle{
+    color: #2f45c5;
+    padding-top: .5%;
+    font-size: medium;
+}
+.content{
+    font-size: small;
+    font-weight: 500;
+    padding: 1% 1%;
+    margin-top: 2%;
+}

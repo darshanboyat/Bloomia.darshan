@@ -1,0 +1,15 @@
+.logo{
+    position: absolute;
+    margin: 2.4rem 0% 0% 8.1rem;
+    padding: 8px 24px;
+    border-radius: 1rem;
+    width: fit-content;
+    font-size: small;
+    z-index: 1;
+}
+.dark-logo{
+    background-color: #535372;
+}
+.light-logo{
+    background-color: #fff;
+}

@@ -1,0 +1,61 @@
+.calender-container{
+    position: relative;
+    color: black;
+    margin-top: 3%;
+    left: 68%;
+    width: 100%;
+    padding: 1%;
+}
+.calender-label{
+    justify-content: space-between;
+    width: 28%;
+}
+.for-premium-user::before{
+    font-weight: bold;
+}
+
+.calender{
+    background-color: #EBEBFC;
+    color: gray;
+    border-radius: .7rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1%;
+    padding-left: 1%;
+    width: 30%;
+    
+}
+.streaks{
+    font-size: small;
+    justify-content: space-around;
+    width: 100%;
+    padding: 5%;
+    font-weight: bold;
+}
+table tr td {
+    height: 20px !important;
+    /* height:40px; */
+}
+.days{
+    font-size: small;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 80%;
+}
+.dates{
+    flex-wrap: wrap;
+    text-align: start;
+    font-size: small;
+    font-weight: bold;
+    justify-content: space-between;
+    width: 90%;
+}
+.date{
+    padding: 1% 8%;
+    width: 13%
+}
+.prev-date{
+    color: rgb(188, 188, 188);
+    padding: 1% 4%
+}

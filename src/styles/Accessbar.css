@@ -1,0 +1,64 @@
+.accessbar-dropdown {
+    position: relative;
+    margin-top: 1%;
+    left: 68.5%;
+    color: black;
+}
+
+.bar-handle {
+    position: absolute;
+    width: 100%;
+    top: 11%;
+    left: 23%;
+    color: black;
+    justify-content: center;
+}
+
+.handle {
+    padding-right: .3%;
+}
+
+.bi-question-circle {
+    font-size: x-small;
+    background-color: #ebebfc;
+    padding: .2%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 300rem;
+    width: 1.2%;
+    height: .5%;
+    font-weight: bold;
+}
+
+.bi-question-circle:hover {
+    cursor: pointer;
+}
+
+.access-btns {
+    top: 11%;
+    left: 90%;
+    font-size: 15px;
+    width: 6%;
+    justify-content: space-between;
+    position: absolute;
+    color: black;
+}
+
+.access-btns i {
+    background-color: #ebebfc;
+    border-radius: 2rem;
+    width: 23px;
+    text-align: center;
+}
+
+.access-btns i::before {
+    font-weight: 900;
+}
+
+.access-btns div {
+    background-color: #ebebfc;
+    border-radius: 2rem;
+    width: 23px;
+    text-align: center;
+}

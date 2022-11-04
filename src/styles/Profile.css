@@ -1,0 +1,41 @@
+.add-photo{
+    width: 8px;
+    overflow: hidden;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    position: absolute;
+    content: '+';
+    color: blue;
+    background-color: #EBEBFC;
+    display: inline-block;
+    top: 19%;
+    margin-left: -1.8%;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid blue;
+    border-radius: 2rem;
+    padding: 0px 7px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.custom-file-input:hover::before {
+    border-color: blue;
+    curser: pointer;
+}
+
+.custom-file-input:active {
+    outline: 0;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
